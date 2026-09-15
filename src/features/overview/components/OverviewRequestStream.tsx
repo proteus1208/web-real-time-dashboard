@@ -3,7 +3,7 @@ import {
   useOverviewRequestsQuery,
 } from "@/features/overview/queries/overview.queries";
 
-import { LiveRequestStream } from "./LiveRequestStream";
+import { LiveRequestStream } from "@/features/requests/components/LiveRequestStream";
 
 export function OverviewRequestStream() {
   const {
